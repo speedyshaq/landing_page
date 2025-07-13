@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 1rem 2rem;
+}
+
+.logo{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.menu a:hover{
+    color: #ffcc00;
+}
